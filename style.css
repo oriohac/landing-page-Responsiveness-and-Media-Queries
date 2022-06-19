@@ -4,6 +4,17 @@ body{
     background: url(assets/bg-hero-desktop.svg);
     background-color:  hsl(193, 100%, 96%,0.5);
     margin: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+0%{
+    opacity: 0;
+}    
+100%{
+    opacity: 1;
+}
 }
 
 button{
@@ -125,7 +136,7 @@ justify-content: center;
     justify-content: end;
 }
 #growTogetherimgcont img{
-    height: 300px;
+    height: 280px;
   
     margin-left: 60px;
 }
@@ -141,7 +152,7 @@ justify-content: center;
     margin-bottom: 30px;
 }
 #flowingConversationimgcont img{
-    height: 300px;
+    height: 280px;
     margin-left: 60px;
 }
 #flowingConversationimgcont{
@@ -160,7 +171,6 @@ justify-content: center;
 
 #youruserscont{
     display: flex;
-    padding: 28px;
     padding-left: 28px;
     padding-right: 28px;
     padding-top: 60px;
@@ -178,7 +188,7 @@ flex-direction: column;
 justify-content: center;
 }
 #yourusersimgcont img{
-    height: 300px;
+    height: 280px;
   
    
 }
@@ -300,16 +310,14 @@ svg path{
 .footcol4 p{
     font-size: 12px;
 }
-.footcol4 i{
+.social-icons{
     margin-bottom: 260px;
-}
-.fa{
     padding-top: 20px;
-    font-size: 24px;
+    width: 26px;
     padding-right: 14px;
 }
-.fa:active{
-color: hsl(322, 100%, 66%);
+.social-icons:active path{
+fill: hsl(322, 100%, 66%);
 }
 #copyright{
     text-align: end;
@@ -344,11 +352,11 @@ height: 22px;
     #headcont{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
-        padding-top: 60px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-top: 40px;
+        padding-right: 15px;
         text-align: center;
-        justify-content: unset;
+        justify-content:unset;
  
 
     }
@@ -364,7 +372,7 @@ height: 22px;
     }
     #headerbtnpink{
         width: 80%;
-        height: 38px;
+        height: 44px;
       margin: auto;
     }
     #headimg{
@@ -378,15 +386,27 @@ height: 22px;
     #growTogethercont{
 display: flex;
 flex-direction: column-reverse;
+padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     }
     
 #flowingConversationcont{
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #youruserscont{
     display: flex;
     flex-direction: column-reverse;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #growTogetherimgcont{
     display: flex;
@@ -463,7 +483,7 @@ text-align: center;
     text-align: center;
     
 }
-.footcol4 i{
+.footcol4 .social-icons{
     margin-bottom: 0;
 }
 }
