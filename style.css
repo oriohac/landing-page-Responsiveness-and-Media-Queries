@@ -7,7 +7,7 @@ body{
 }
 
 button{
-    border-radius: 50px;
+    border-radius: 20px;
     border: none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -50,8 +50,8 @@ width: 26%;
     width: 26%;
     height: 35px;
     background-color: white;
-    -webkit-box-shadow: 0 0 5px hsl(208, 11%, 55%);
-            box-shadow: 0 0 5px hsl(208, 11%, 55%);
+    -webkit-box-shadow: 0 0 3px hsl(210, 9%, 60%);
+            box-shadow: 0 0 3px hsl(210, 9%, 60%);
 }
 #navbtn:active{
    color: hsl(208, 11%, 55%);
@@ -307,26 +307,60 @@ color: hsl(322, 100%, 66%);
     text-align: end;
     padding-right: 120px;
 }
+
+
+
+
 @media screen and (max-width:375px) {
     body{
         background: url(assets/bg-hero-mobile.svg);
     background-color:  hsl(193, 100%, 96%,0.5);
     margin: 0;
     }
+    #naviglogobox{
+        margin: 0;
+        padding: 10px;
+    }
+#navbotn{
+    margin: 0;
+    padding: 10px;
+}
+#navlogo{
+width: 70%;
+height: 22px;
+}
+    #navbtn{
+        width: 70%;
+        height: 28px;
+    }
     #headcont{
         display: flex;
-flex-direction: column;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 60px;
+        padding-right: 20px;
+        text-align: center;
+        justify-content: unset;
+ 
 
     }
-    #headerbtnpink{
-        width: 70%;
-       
-        
-        height: 36px;
-    }
+    
     #headtxt{
-        text-align: center;
+        
+        display: flex;
+        flex-direction: column;
         padding: 0;
+    }
+    #headtxt p{
+        margin-bottom: 40px;
+    }
+    #headerbtnpink{
+        width: 80%;
+        height: 38px;
+      margin: auto;
+    }
+    #headimg{
+        margin-top: 60px;
     }
     .container{
         padding-left: 20px;
@@ -378,7 +412,24 @@ text-align: center;
 #yourusersimgcont img{
     margin: 0;
 }
+.footer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #footcont{
     flex-direction: column;
+}
+.footcol1{
+    padding-left: 10px;
+}
+.footcol2{
+    padding-left: 10px;
+}
+.footcol3{
+    padding-left: 10px;
+}
+.footcol4{
+    padding-left: 10px;
+    text-align: center;
 }
 }
