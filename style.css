@@ -7,7 +7,7 @@ body{
 }
 
 button{
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -204,12 +204,13 @@ justify-content: center;
     -webkit-box-shadow: 0 0 8px hsl(208, 11%, 55%);
             box-shadow: 0 0 8px hsl(208, 8%, 63%);
     text-align: center; 
-    margin-top: 100px;   
+    margin-top: 75px;   
 }
 
 #buildcommunitybtn{
     width: 46%;
     height: 70px;
+    border-radius: 50px;
     background-color: hsl(322, 100%, 66%);
     color: white;
     -webkit-box-shadow: 0 0 8px hsl(208, 11%, 55%);
@@ -294,6 +295,13 @@ svg path{
 .footcol4{
     flex: 25%;
     padding-left: 40px;
+   
+}
+.footcol4 p{
+    font-size: 12px;
+}
+.footcol4 i{
+    margin-bottom: 260px;
 }
 .fa{
     padding-top: 20px;
@@ -365,6 +373,7 @@ height: 22px;
     .container{
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 180px;
     }
     #growTogethercont{
 display: flex;
@@ -412,9 +421,30 @@ text-align: center;
 #yourusersimgcont img{
     margin: 0;
 }
+#buildcommunity{
+    width: 90%;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+    text-align: center;
+}
+#buildcommunitybtn{
+    
+    width: 60%;
+    height: 46px;
+    
+}
 .footer{
     padding-left: 10px;
     padding-right: 10px;
+}
+.footer a{
+    color: white;
+}
+.footer p{
+    color: white;
 }
 #footcont{
     flex-direction: column;
@@ -431,5 +461,9 @@ text-align: center;
 .footcol4{
     padding-left: 10px;
     text-align: center;
+    
+}
+.footcol4 i{
+    margin-bottom: 0;
 }
 }
