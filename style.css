@@ -541,7 +541,7 @@ height: 22px;
     .container{
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 180px;
+        padding-bottom: 154px;
     }
     #growTogethercont{
 display: flex;
@@ -602,9 +602,10 @@ text-align: center;
     margin: 0;
 }
 #buildcommunity{
-    width: 90%;
-    height: 100px;
-    padding-top: 40px;
+    width: 96%;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
     font-size: 12px;
