@@ -326,6 +326,166 @@ fill: hsl(322, 100%, 66%);
 
 
 
+@media screen and (max-width:560px) {
+    body{
+        background: url(assets/bg-hero-mobile.svg);
+    background-color:  hsl(193, 100%, 96%,0.5);
+    margin: 0;
+    }
+    #naviglogobox{
+        margin: 0;
+        padding: 10px;
+    }
+#navbotn{
+    margin: 0;
+    padding: 10px;
+}
+#navlogo{
+width: 70%;
+height: 22px;
+}
+    #navbtn{
+        width: 70%;
+        height: 28px;
+    }
+    #headcont{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-top: 40px;
+        padding-right: 15px;
+        text-align: center;
+        justify-content:unset;
+ 
+
+    }
+    
+    #headtxt{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #headtxt p{
+        margin-bottom: 40px;
+    }
+    #headerbtnpink{
+        width: 80%;
+        height: 44px;
+      margin: auto;
+    }
+    #headimg{
+        margin-top: 60px;
+    }
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 180px;
+    }
+    #growTogethercont{
+display: flex;
+flex-direction: column-reverse;
+padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    
+#flowingConversationcont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#youruserscont{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#growTogetherimgcont{
+    display: flex;
+flex-direction: column;
+}
+#flowingConversationimgcont{
+    display: flex;
+    flex-direction: column;
+}
+#yourusersimgcont{
+    display: flex;
+    flex-direction: column;
+}
+#growTogetherTxt{
+margin: 0;
+text-align: center;
+}
+#growTogetherimgcont img{
+    margin: 0;
+}
+#flowingConversationimgcont img{
+    margin: 0;
+}
+#flowingConversationtxt{
+    margin: 0;
+    text-align: center;
+}
+#youruserstxt{
+    margin: 0;
+    text-align: center;
+}
+#yourusersimgcont img{
+    margin: 0;
+}
+#buildcommunity{
+    width: 90%;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+    text-align: center;
+}
+#buildcommunitybtn{
+    
+    width: 60%;
+    height: 46px;
+    
+}
+.footer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer a{
+    color: white;
+}
+.footer p{
+    color: white;
+}
+#footcont{
+    flex-direction: column;
+}
+.footcol1{
+    padding-left: 10px;
+}
+.footcol2{
+    padding-left: 10px;
+}
+.footcol3{
+    padding-left: 10px;
+}
+.footcol4{
+    padding-left: 10px;
+    text-align: center;
+    
+}
+.footcol4 .social-icons{
+    margin-bottom: 0;
+}
+}
 
 @media screen and (max-width:375px) {
     body{
