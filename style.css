@@ -489,7 +489,7 @@ text-align: center;
 
 @media screen and (max-width:375px) {
     body{
-        background: url(assets/bg-hero-mobile.svg);
+       background: url(assets/bg-hero-mobile.svg);
     background-color:  hsl(193, 100%, 96%,0.5);
     margin: 0;
     }
